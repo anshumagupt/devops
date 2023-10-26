@@ -1,0 +1,355 @@
+What is Nagios?
+a. A web server
+b. A network monitoring tool
+c. An operating system
+d. A database management system
+
+Which programming language is Nagios written in?
+a. Java
+b. Python
+c. C
+d. Ruby
+
+What is the primary purpose of Nagios?
+a. Network security
+b. System administration
+c. Network monitoring
+d. Web development
+
+Which of the following is not a core component of Nagios?
+a. NRPE
+b. Nagios Core
+c. Nagios Plugins
+d. Nagios Web Interface
+
+What does NRPE stand for in the context of Nagios?
+a. Network Remote Plugin Execution
+b. Nagios Remote Plugin Engine
+c. Nagios Remote Protocol Extension
+d. Network Resource Performance Engine
+
+Which configuration file in Nagios is used to define host objects?
+a. nagios.cfg
+b. hosts.cfg
+c. services.cfg
+d. commands.cfg
+
+In Nagios, what is a passive check?
+a. A check that is performed manually by an administrator
+b. A check that is scheduled at regular intervals
+c. A check where the monitored device actively sends data
+d. A check that is performed only on demand
+
+Which Nagios component is responsible for executing host and service checks?
+a. Nagios Core
+b. NRPE
+c. Nagios Plugins
+d. Nagios Web Interface
+
+Which tool is commonly used for visualizing Nagios data through graphs and charts?
+a. MRTG
+b. Wireshark
+c. Snort
+d. Tcpdump
+
+What is the default web interface used to configure and view Nagios monitoring data?
+a. Nagios Dashboard
+b. Nagios Console
+c. Nagios Web UI
+d. Nagios Control Center
+
+Which of the following is a host status in Nagios?
+a. UP
+b. ACTIVE
+c. RUNNING
+d. GOOD
+
+What is the purpose of the Nagios Notification system?
+a. To perform system backups
+b. To send alerts and notifications when issues are detected
+c. To monitor network bandwidth
+d. To manage users and permissions
+
+Which configuration file is used to define time periods in Nagios?
+a. timeperiods.cfg
+b. schedules.cfg
+c. intervals.cfg
+d. times.cfg
+
+What is the purpose of the "contact groups" in Nagios?
+a. To group different hosts together
+b. To define who should be notified when an issue is detected
+c. To set the time period for checks
+d. To specify which plugins to use for monitoring
+
+Which Nagios command is used to manually run a host or service check?
+a. nagios-check
+b. check-host
+c. nagios-cmd
+d. nagios-restart
+
+Which of the following is not a valid Nagios status code for a host or service?
+a. OK
+b. ERROR
+c. WARNING
+d. CRITICAL
+
+What is the purpose of escalations in Nagios?
+a. To resolve issues automatically
+b. To notify additional contacts when alerts remain unacknowledged
+c. To group hosts and services
+d. To prioritize checks
+
+Which Nagios component is responsible for managing and scheduling checks?
+a. Nagios Core
+b. NRPE
+c. Nagios Plugins
+d. Nagios Web Interface
+
+What does "Acknowledging" a problem in Nagios mean?
+a. Resolving the issue
+b. Silencing notifications for the issue
+c. Escalating the issue
+d. Re-scheduling the check
+
+Which option in the Nagios command definition allows you to specify the maximum execution time for a command?
+a. max-time
+b. timeout
+c. max-execution
+d. execution-time
+
+What is the purpose of using macros in Nagios configuration files?
+a. To define host and service templates
+b. To execute custom scripts
+c. To define host groups
+d. To create custom web pages
+
+Which of the following is an example of a passive check in Nagios?
+a. Pinging a host
+b. Checking CPU usage
+c. Receiving SNMP traps
+d. Scanning open ports
+
+What is the default port number for the Nagios web interface?
+a. 80
+b. 443
+c. 5665
+d. 8080
+
+Which command is used to verify the Nagios configuration files for syntax errors?
+a. nagios-check
+b. nagios -v
+c. check-nagios
+d. nagios-verify
+
+Which Nagios object type is used to define a command to be executed for a host or service check?
+a. check_command
+b. service_command
+c. execute_command
+d. run_command
+
+What is the purpose of "soft" and "hard" states in Nagios?
+a. To define host dependencies
+b. To specify the check interval
+c. To indicate the number of retries before a notification is sent
+d. To define custom macros
+
+In Nagios, what is the purpose of event handlers?
+a. To execute custom scripts when a host or service goes down
+b. To send email notifications to administrators
+c. To schedule periodic system maintenance
+d. To manage log files
+
+Which Nagios component is responsible for executing remote plugin checks?
+a. Nagios Core
+b. NRPE
+c. Nagios Plugins
+d. Nagios Web Interface
+
+What does "NRPE" stand for in Nagios?
+a. Nagios Remote Plugin Executor
+b. Network Resource Performance Engine
+c. Nagios Remote Protocol Extension
+d. Network Remote Plugin Execution
+
+Which Nagios component is used to create and manage dashboards and reports?
+a. Nagios Core
+b. Nagios Graphs
+c. Nagios Reporting
+d. Nagios Web Interface
+
+What is the purpose of "dependencies" in Nagios?
+a. To group related services
+b. To define relationships between hosts and services
+c. To configure email notifications
+d. To set up maintenance windows
+
+Which of the following is not a valid notification method in Nagios?
+a. Email
+b. SMS
+c. SNMP Trap
+d. HTTP POST
+
+What is the purpose of the "hostgroups" definition in Nagios?
+a. To group related hosts
+b. To schedule host checks
+c. To specify custom icons for hosts
+d. To define host dependencies
+
+Which configuration file in Nagios is used to define service objects?
+a. nagios.cfg
+b. hosts.cfg
+c. services.cfg
+d. commands.cfg
+
+In Nagios, what is a "contact"?
+a. An application log
+b. An administrator or group that should be notified
+c. A type of service check
+d. A plugin for remote checks
+
+Which of the following is not a valid state for a host or service in Nagios?
+a. OK
+b. UP
+c. UNKNOWN
+d. CONNECTED
+
+What does "downtime" mean in Nagios?
+a. Time when the Nagios server is offline
+b. Time when a host or service check is paused
+c. Time when a network is congested
+d. Time when an issue is acknowledged
+
+Which option in the Nagios host definition is used to specify the check interval for that host?
+a. check_interval
+b. retry_interval
+c. check_interval_host
+d. interval_check
+
+What is the purpose of the "retain_status_information" directive in Nagios?
+a. To store historical performance data
+b. To keep status information across restarts
+c. To specify contact information
+d. To set up escalation rules
+
+Which Nagios object is used to define a time period in which checks are active?
+a. time_period
+b. check_period
+c. active_time
+d. schedule_period
+
+What is the purpose of "Nagios Servicegroups"?
+a. To group related services
+b. To group related hosts
+c. To schedule service checks
+d. To define contact groups
+
+Which Nagios component is responsible for running the web-based user interface?
+a. Nagios Core
+b. NRPE
+c. Nagios Plugins
+d. Nagios Web Interface
+
+What is the purpose of "Nagios Host Extinfo"?
+a. To store detailed information about host check results
+b. To configure external devices
+c. To manage system users
+d. To control access to the web interface
+
+What is the purpose of the "event_broker_options" directive in Nagios?
+a. To configure event handlers
+b. To set options for the event broker module
+c. To specify notification methods
+d. To define dependencies
+
+Which Nagios component is responsible for generating performance data and graphs?
+a. Nagios Core
+b. Nagios Graphs
+c. Nagios Reporting
+d. Nagios Web Interface
+
+What does "Nagios Log Rotation" refer to?
+a. A process for rotating log files to manage disk space
+b. A feature for real-time log analysis
+c. A plugin for checking log files
+d. A tool for remote log access
+
+In Nagios, what is the purpose of "notification_interval"?
+a. To set the initial delay before notifications are sent
+b. To configure how often notifications are sent
+c. To define the interval between service checks
+d. To specify the interval for passive checks
+
+What is the purpose of "flap detection" in Nagios?
+a. To detect network intrusions
+b. To identify hosts that are frequently going up and down
+c. To monitor file changes
+d. To manage log files
+
+Which Nagios component is responsible for managing security and user access?
+a. Nagios Core
+b. NRPE
+c. Nagios Plugins
+d. Nagios Web Interface
+
+What is the purpose of "Nagios Scheduled Downtime"?
+a. To schedule regular maintenance windows
+b. To temporarily disable host and service checks
+c. To set up alerting thresholds
+d. To manage user permissions
+
+Answers:
+
+b
+c
+b
+d
+a
+b
+c
+a
+a
+c
+a
+b
+a
+b
+c
+b
+b
+a
+b
+b
+a
+c
+d
+b
+a
+c
+a
+b
+a
+d
+b
+d
+a
+c
+b
+d
+b
+a
+b
+b
+a
+d
+a
+b
+b
+a
+b
+b
+a
+b
+
+
+

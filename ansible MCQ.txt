@@ -1,0 +1,356 @@
+What is Ansible?
+a) A configuration management tool
+b) A programming language
+c) A database management system
+d) A web server
+
+Which language is Ansible written in?
+a) Python
+b) Ruby
+c) Java
+d) C++
+
+What is the primary purpose of Ansible?
+a) Continuous integration
+b) Infrastructure automation
+c) Container orchestration
+d) Network security
+
+What is an Ansible playbook?
+a) A list of groceries
+b) A collection of roles
+c) A configuration file
+d) A group of servers
+
+Which module in Ansible is used to manage package installation?
+a) apt
+b) install
+c) yum
+d) package
+
+What is an Ansible role?
+a) A sequence of tasks
+b) A database table
+c) A group of hosts
+d) A programming language
+
+Which file in Ansible is used to define the inventory of hosts?
+a) hosts.ini
+b) inventory.yml
+c) hosts.cfg
+d) inventory.ini
+
+What does YAML stand for in Ansible?
+a) Yet Another Markup Language
+b) YAML Ain't Markup Language
+c) Your Advanced Markup Language
+d) Yellow And Multicolored Language
+
+In Ansible, what is a task?
+a) A server's nickname
+b) A step in a playbook
+c) A type of role
+d) A group of hosts
+
+What is Ansible Galaxy?
+a) A space exploration program
+b) A collection of Ansible roles
+c) An online gaming platform
+d) A cloud service provider
+
+Which Ansible module is used for copying files to remote hosts?
+a) cp
+b) copy
+c) mv
+d) scp
+
+What is the purpose of Ansible facts?
+a) They provide information about the host system
+b) They are custom facts created by users
+c) They are used to track playbook execution
+d) They are a type of role in Ansible
+
+What is the default configuration file for Ansible?
+a) ansible.yaml
+b) ansible.cfg
+c) ansible.conf
+d) ansible.ini
+
+What is idempotence in Ansible?
+a) A complex mathematical concept
+b) A characteristic of Ansible tasks that can be run multiple times without changing the outcome
+c) A type of security mechanism
+d) A playbook execution mode
+
+Which Ansible module is used to restart services?
+a) restart
+b) service
+c) systemd
+d) start
+
+What is the purpose of the Ansible Vault?
+a) To store encryption keys
+b) To manage inventory
+c) To securely store sensitive data
+d) To execute playbooks
+
+What is the command to run an Ansible playbook?
+a) ansible run
+b) ansible start
+c) ansible-playbook
+d) ansible-execute
+
+Which Ansible command is used to gather facts from remote hosts?
+a) ansible-gather-facts
+b) ansible-get-facts
+c) ansible-fact-gather
+d) ansible -m setup
+
+What is the purpose of an Ansible role's "defaults" directory?
+a) To store task definitions
+b) To store default variable values
+c) To store role metadata
+d) To store inventory information
+
+Which Ansible module is used to manage user accounts?
+a) user
+b) account
+c) passwd
+d) manage
+
+What is the difference between a playbook and a role in Ansible?
+a) Playbooks are for executing tasks, roles are for defining tasks
+b) Playbooks are for defining tasks, roles are for executing tasks
+c) Playbooks and roles are the same thing
+d) Playbooks can be run remotely, roles can only be run locally
+
+Which Ansible module is used for running shell commands on remote hosts?
+a) shell
+b) command
+c) execute
+d) remote
+
+In Ansible, what is a "handler" used for?
+a) Handling errors in playbooks
+b) Managing role variables
+c) Defining tasks
+d) Running tasks when notified by other tasks
+
+Which command is used to check the syntax of an Ansible playbook without executing it?
+a) ansible-check
+b) ansible-syntax
+c) ansible-playbook --check
+d) ansible-verify
+
+What is the purpose of an Ansible playbook's "vars" section?
+a) To define variables that can be used in tasks
+b) To specify the target hosts
+c) To list the roles being used
+d) To define playbook-specific facts
+
+Which Ansible module is used to manage Docker containers?
+a) docker
+b) container
+c) ansible-docker
+d) docker-container
+
+What is an Ansible inventory group?
+a) A collection of playbooks
+b) A collection of roles
+c) A group of hosts
+d) A directory in the playbook
+
+In Ansible, what is a "play"?
+a) A musical performance
+b) A list of tasks
+c) A group of hosts
+d) A collection of variables
+
+Which Ansible module is used for making HTTP requests?
+a) http
+b) web
+c) uri
+d) http-request
+
+How can you run an Ansible playbook against a specific host or group of hosts?
+a) Use the "--target" option
+b) Modify the inventory file
+c) Use the "--limit" option
+d) Use the "--hosts" option
+
+What is an Ansible Galaxy role?
+a) A built-in Ansible role
+b) A user-created role
+c) A deprecated role
+d) An Ansible version
+
+Which Ansible module is used for managing firewall rules?
+a) firewall
+b) iptables
+c) firewalld
+d) ufw
+
+What is the purpose of the "ignore_errors" parameter in Ansible?
+a) It tells Ansible to ignore any errors and continue with the playbook
+b) It tells Ansible to terminate the playbook if an error occurs
+c) It sets error messages to be more verbose
+d) It enables debugging mode
+
+What is Ansible Tower?
+a) A physical tower used in data centers
+b) A paid, web-based UI and dashboard for Ansible
+c) A feature for managing network devices
+d) A specialized Ansible module
+
+Which Ansible module is used for managing databases?
+a) database
+b) db
+c) mysql
+d) sql
+
+What is the purpose of the "become" parameter in Ansible?
+a) It enables the use of sudo or another privilege escalation method
+b) It disables privilege escalation
+c) It changes the default SSH port
+d) It specifies the user to connect to the remote host
+
+What is Ansible Tower's role in a larger Ansible workflow?
+a) It is used for creating playbooks
+b) It is not related to Ansible workflows
+c) It provides centralized control and visibility over playbooks and automation jobs
+d) It is an alternative to using the command line
+
+Which Ansible module is used for managing Windows systems?
+a) win
+b) windows
+c) wincmd
+d) winexe
+
+What is the purpose of "inventory plugins" in Ansible?
+a) They add new functionality to Ansible
+b) They generate dynamic inventory data from various sources
+c) They are used to define roles in a playbook
+d) They are used for managing Ansible Galaxy roles
+
+In Ansible, what does the "become_method" parameter specify?
+a) The name of the playbook
+b) The user to become on the remote host
+c) The method for privilege escalation (e.g., sudo)
+d) The name of the inventory file
+
+Which Ansible module is used for managing AWS resources?
+a) aws
+b) ec2
+c) cloud
+d) s3
+
+What is the purpose of "async" and "poll" parameters in Ansible tasks?
+a) They control task execution time
+b) They determine the order of task execution
+c) They are used for managing roles
+d) They specify the target hosts
+
+In Ansible, what is "idempotence"?
+a) The ability to run tasks without changing the system's state
+b) The use of encryption in playbooks
+c) The process of verifying task success
+d) The practice of using roles in playbooks
+
+Which Ansible module is used for managing SSH keys on remote hosts?
+a) ssh_key
+b) keygen
+c) authorized_key
+d) ssh_auth
+
+What is the purpose of the "register" keyword in Ansible tasks?
+a) It registers tasks with a central server
+b) It records the output of a task for later use
+c) It assigns tasks to specific hosts
+d) It defines variables for playbooks
+
+What is the Ansible Tower's role-based access control (RBAC) feature used for?
+a) Managing roles within a playbook
+b) Defining user roles and permissions for managing automation
+c) Controlling the order of playbook execution
+d) Configuring custom roles for Tower
+
+Which Ansible module is used for managing Nginx configurations?
+a) nginx
+b) webserver
+c) config
+d) nginx_conf
+
+What is the purpose of "Ansible Collections"?
+a) They are collections of playbooks
+b) They are a type of Ansible role
+c) They are reusable units of content including roles, modules, and plugins
+d) They are an alternative to inventories
+
+In Ansible, what does the "include" keyword do in a playbook?
+a) It includes external playbooks within the current playbook
+b) It defines variables
+c) It specifies the target hosts
+d) It triggers a restart of services
+
+What is "continuous integration" (CI) in the context of Ansible?
+a) A feature for managing container orchestration
+b) A process for automating the testing and integration of code changes
+c) A type of Ansible role
+d) An alternative to playbook execution
+
+Answers:
+
+a) A configuration management tool
+a) Python
+b) Infrastructure automation
+c) A configuration file
+d) package
+a) A sequence of tasks
+b) inventory.yml
+b) YAML Ain't Markup Language
+b) A step in a playbook
+b) A collection of Ansible roles
+b) copy
+a) They provide information about the host system
+b) ansible.cfg
+b) A characteristic of Ansible tasks that can be run multiple times without changing the outcome
+b) service
+c) To securely store sensitive data
+c) ansible-playbook
+d) ansible -m setup
+b) To store default variable values
+a) user
+a) Playbooks are for executing tasks, roles are for defining tasks
+b) command
+d) Running tasks when notified by other tasks
+b) ansible-syntax
+a) To define variables that can be used in tasks
+a) docker
+c) A group of hosts
+b) A list of tasks
+c) uri
+c) Use the "--limit" option
+b) A user-created role
+a) firewall
+a) It tells Ansible to ignore any errors and continue with the playbook
+b) A paid, web-based UI and dashboard for Ansible
+a) database
+a) It enables the use of sudo or another privilege escalation method
+c) It provides centralized control and visibility over playbooks and automation jobs
+b) windows
+b) They generate dynamic inventory data from various sources
+c) The method for privilege escalation (e.g., sudo)
+b) ec2
+a) They control task execution time
+a) The ability to run tasks without changing the system's state
+c) authorized_key
+b) It records the output of a task for later use
+b) Defining user roles and permissions for managing automation
+a) nginx
+c) They are reusable units of content including roles, modules, and plugins
+a) It includes external playbooks within the current playbook
+b) A process for automating the testing and integration of code changes
+
+
+
+

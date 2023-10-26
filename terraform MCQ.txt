@@ -1,0 +1,355 @@
+What is Terraform?
+a) A programming language
+b) An infrastructure as code tool
+c) A cloud service provider
+d) A configuration management tool
+
+Which programming language is used to write Terraform configurations?
+a) Python
+b) Java
+c) YAML
+d) HashiCorp Configuration Language (HCL)
+
+What does IaC stand for?
+a) Infrastructure as Code
+b) Infrastructure as a Service
+c) Internet and Cloud
+d) Integrated Automation and Configuration
+
+Which of the following is a key component of Terraform?
+a) Docker
+b) Ansible
+c) Terraform CLI
+d) Kubernetes
+
+In Terraform, what is a "provider"?
+a) A person who manages infrastructure
+b) A module for managing databases
+c) A plugin that offers resource types
+d) A version control system
+
+Which Terraform command is used to initialize a new configuration directory?
+a) terraform init
+b) terraform apply
+c) terraform plan
+d) terraform validate
+
+What is the purpose of the "terraform.tfstate" file?
+a) To store the current state of the infrastructure
+b) To store Terraform's source code
+c) To store environment variables
+d) To store provider configuration
+
+What is the "resource" block used for in Terraform?
+a) To define variables
+b) To define data sources
+c) To declare infrastructure objects
+d) To define input and output variables
+
+In Terraform, what is the purpose of a "variable" block?
+a) To store comments
+b) To declare input variables
+c) To define resource dependencies
+d) To create provider configurations
+
+Which Terraform command is used to create an execution plan?
+a) terraform apply
+b) terraform init
+c) terraform plan
+d) terraform validate
+
+What does "tfstate" locking prevent in Terraform?
+a) It prevents unauthorized access to resources.
+b) It prevents concurrent state file modifications.
+c) It prevents resource destruction.
+d) It prevents Terraform from executing.
+
+How do you pass a variable value to a Terraform module?
+a) Set it in the module's configuration.
+b) Export it from the module.
+c) Use an environment variable.
+d) It's not possible to pass variables to modules.
+
+What is the purpose of the "terraform refresh" command?
+a) To update the Terraform CLI to the latest version.
+b) To refresh the state of the infrastructure resources.
+c) To destroy all resources in the Terraform configuration.
+d) To validate the Terraform configuration files.
+
+What is a "Terraform module"?
+a) A collection of configuration files for a specific project.
+b) A directory where Terraform stores its state files.
+c) A piece of infrastructure that Terraform manages.
+d) A container for Terraform providers.
+
+Which HCL function is used to concatenate two strings in Terraform?
+a) join()
+b) split()
+c) concat()
+d) merge()
+
+In Terraform, what is the purpose of the "terraform output" command?
+a) To display the current state of the infrastructure.
+b) To display the values of output variables.
+c) To apply changes to the infrastructure.
+d) To import resources from an existing provider.
+
+What is the purpose of the "terraform import" command?
+a) To create a new Terraform configuration.
+b) To import existing resources into Terraform.
+c) To validate the syntax of Terraform files.
+d) To destroy all resources in a Terraform configuration.
+
+What does a Terraform "data source" do?
+a) It defines the desired state of a resource.
+b) It provides access to information from external systems.
+c) It manages network configurations.
+d) It deploys infrastructure resources.
+
+How can you specify the provider configuration in a Terraform configuration?
+a) Use the "provider" block.
+b) Specify it as a command-line argument.
+c) Define it in the "variables" block.
+d) It is not necessary to configure providers.
+
+In Terraform, what is the purpose of the "count" argument within a resource block?
+a) It specifies the number of resources to create.
+b) It defines resource dependencies.
+c) It configures the provider for the resource.
+d) It sets the resource's name.
+
+Which file is used to declare variables and specify their values in Terraform?
+a) terraform.tfstate
+b) variables.tf
+c) provider.tf
+d) main.tf
+
+What is the primary role of the "terraform apply" command?
+a) Initialize the Terraform configuration.
+b) Generate an execution plan.
+c) Import resources from external systems.
+d) Create or update resources as defined in the configuration.
+
+In Terraform, what is a "data block" used for?
+a) To declare input variables.
+b) To create a new resource.
+c) To fetch data from external sources.
+d) To define provider settings.
+
+What is the purpose of the "terraform destroy" command in Terraform?
+a) To update the state file.
+b) To create a new configuration.
+c) To destroy the infrastructure defined in the configuration.
+d) To import external resources.
+
+Which of the following statements is true regarding Terraform state?
+a) It is a version control system.
+b) It contains information about the current infrastructure.
+c) It is automatically generated and cannot be modified.
+d) It is stored in plain text format.
+
+What is the purpose of a "provisioner" in Terraform?
+a) It configures provider settings.
+b) It specifies the desired state of a resource.
+c) It runs scripts or commands on the created resources.
+d) It defines resource dependencies.
+
+How can you specify dependencies between resources in Terraform?
+a) Use the "depends_on" argument.
+b) Use the "resources" block.
+c) Use the "provider" block.
+d) Use the "module" block.
+
+In Terraform, what does the "output" block allow you to do?
+a) Declare input variables.
+b) Define resource dependencies.
+c) Expose values from the Terraform configuration.
+d) Set the desired state of resources.
+
+Which of the following Terraform commands is used to validate the configuration files?
+a) terraform check
+b) terraform validate
+c) terraform plan
+d) terraform apply
+
+What is the purpose of the "terraform state" command in Terraform?
+a) To apply changes to the infrastructure.
+b) To display information about the Terraform state.
+c) To create new resources.
+d) To destroy all resources in the configuration.
+
+How can you create reusable modules in Terraform?
+a) Use the "module" block within the main configuration.
+b) Use environment variables.
+c) Use a separate Terraform configuration file.
+d) It's not possible to create reusable modules in Terraform.
+
+What is a "Terraform workspace" used for?
+a) To store Terraform configurations.
+b) To create and manage multiple environments with the same configuration.
+c) To define resource dependencies.
+d) To specify provider settings.
+
+In Terraform, what is the "for_each" argument used for?
+a) It defines provider settings.
+b) It specifies the desired state of a resource.
+c) It creates multiple instances of a resource with different configurations.
+d) It configures the execution plan.
+
+How do you specify conditional logic in a Terraform configuration?
+a) Use the "if/else" block.
+b) Use the "count" argument.
+c) Use the "depends_on" argument.
+d) Use the "resources" block.
+
+What is the purpose of the "terraform graph" command in Terraform?
+a) To generate a visual representation of the configuration.
+b) To check for syntax errors in configuration files.
+c) To apply changes to the infrastructure.
+d) To destroy resources.
+
+What is the Terraform Cloud service used for?
+a) Hosting containerized applications.
+b) Managing infrastructure as code.
+c) Providing DNS services.
+d) Analyzing application logs.
+
+What does the "terraform workspace list" command display?
+a) A list of all available providers.
+b) A list of available resources.
+c) A list of Terraform workspaces.
+d) A list of variables in the configuration.
+
+Which Terraform command is used to create and switch to a new workspace?
+a) terraform workspace select
+b) terraform workspace create
+c) terraform workspace switch
+d) terraform workspace new
+
+How do you remove a resource created by Terraform?
+a) Delete the resource block from the configuration.
+b) Run "terraform refresh."
+c) Use the "terraform destroy" command.
+d) Manually delete the resource in the cloud console.
+
+What is the purpose of the "remote state" feature in Terraform?
+a) It allows you to store the Terraform state on a remote server.
+b) It enables remote execution of Terraform commands.
+c) It allows you to define resources in a different region.
+d) It connects Terraform to cloud providers.
+
+In Terraform, what is a "resource type"?
+a) The name of the provider.
+b) A category of resources, such as "aws_instance."
+c) A specific instance of a resource.
+d) A type of provider configuration.
+
+Which command is used to format and validate the configuration files in Terraform?
+a) terraform init
+b) terraform validate
+c) terraform plan
+d) terraform apply
+
+What is the purpose of the "locals" block in a Terraform configuration?
+a) To define variables that can be accessed globally.
+b) To declare input variables.
+c) To specify the desired state of resources.
+d) To create resource dependencies.
+
+What does the "terraform taint" command do in Terraform?
+a) It marks a resource as tainted or in an unknown state.
+b) It refreshes the state of the infrastructure.
+c) It deletes a resource from the configuration.
+d) It validates the configuration files.
+
+How do you define a variable with a default value in Terraform?
+a) Use the "required" argument in the variable block.
+b) Use the "default" argument in the variable block.
+c) Define it in the "provider" block.
+d) Use environment variables.
+
+Which Terraform command is used to create an execution plan and save it to a file?
+a) terraform apply
+b) terraform init
+c) terraform plan -out=planfile
+d) terraform validate
+
+What is the purpose of the "terraform fmt" command?
+a) To format Terraform code according to best practices.
+b) To execute Terraform plans.
+c) To apply changes to the infrastructure.
+d) To create a new configuration.
+
+What is the purpose of the "terraform show" command?
+a) To display the current state of the infrastructure.
+b) To create a visual representation of the configuration.
+c) To validate the configuration files.
+d) To import resources from external systems.
+
+Which Terraform command is used to destroy all resources defined in the configuration?
+a) terraform delete
+b) terraform destroy
+c) terraform apply
+d) terraform refresh
+
+What does "DRY" stand for in the context of Terraform?
+a) Don't Repeat Yourself
+b) Deploy, Revert, Yield
+c) Dynamic Resource YAML
+d) Data-Related YAML
+
+Answers:
+
+b) An infrastructure as code tool
+d) HashiCorp Configuration Language (HCL)
+a) Infrastructure as Code
+c) Terraform CLI
+c) A plugin that offers resource types
+a) terraform init
+a) To store the current state of the infrastructure
+c) To declare infrastructure objects
+b) To declare input variables
+c) terraform plan
+b) It prevents concurrent state file modifications.
+a) Set it in the module's configuration.
+b) To refresh the state of the infrastructure resources.
+a) A collection of configuration files for a specific project.
+a) join()
+b) To display the values of output variables.
+b) To import existing resources into Terraform.
+b) It provides access to information from external systems.
+a) Use the "provider" block.
+a) It specifies the number of resources to create.
+b) variables.tf
+d) Create or update resources as defined in the configuration.
+c) To fetch data from external sources.
+c) To destroy the infrastructure defined in the configuration.
+b) It contains information about the current infrastructure.
+c) It runs scripts or commands on the created resources.
+a) Use the "depends_on" argument.
+c) Expose values from the Terraform configuration.
+b) terraform validate
+b) To display information about the Terraform state.
+a) Use the "module" block within the main configuration.
+b) To create and manage multiple environments with the same configuration.
+c) It creates multiple instances of a resource with different configurations.
+b) Use the "count" argument.
+a) To generate a visual representation of the configuration.
+b) Managing infrastructure as code.
+c) A list of Terraform workspaces.
+b) terraform workspace create
+c) Use the "terraform destroy" command.
+a) It allows you to store the Terraform state on a remote server.
+b) A category of resources, such as "aws_instance."
+b) terraform validate
+a) To define variables that can be accessed globally.
+a) It marks a resource as tainted or in an unknown state.
+b) Use the "default" argument in the variable block.
+c) terraform plan -out=planfile
+a) To format Terraform code according to best practices.
+b) To create a visual representation of the configuration.
+b) terraform destroy
+a) Don't Repeat Yourself
+
+
+

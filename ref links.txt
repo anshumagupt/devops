@@ -1,0 +1,11 @@
+https://developer.hashicorp.com/well-architected-framework/operational-excellence/operational-excellence-workspaces-projects
+
+https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/
+
+https://docs.ansible.com/ansible/latest/os_guide/index.html
+
+examtopics.com
+
+https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.4
+
+

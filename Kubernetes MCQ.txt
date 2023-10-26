@@ -1,0 +1,350 @@
+What is Kubernetes?
+a. A containerization technology
+b. A cloud computing platform
+c. A container orchestration platform
+d. A database management system
+Answer: c
+
+What is the primary purpose of Kubernetes?
+a. Managing containers
+b. Managing virtual machines
+c. Managing server hardware
+d. Managing network infrastructure
+Answer: a
+
+Which company originally developed Kubernetes?
+a. Google
+b. Amazon
+c. Microsoft
+d. IBM
+Answer: a
+
+In Kubernetes, what is a Pod?
+a. A group of containers that share the same network namespace
+b. A virtual machine
+c. A single container
+d. A physical server
+Answer: a
+
+What is the minimum number of nodes required for a Kubernetes cluster?
+a. 0
+b. 1
+c. 2
+d. 3
+Answer: b
+
+Which component in Kubernetes is responsible for scheduling workloads to nodes?
+a. API Server
+b. Kubelet
+c. Scheduler
+d. Controller Manager
+Answer: c
+
+What is a Kubernetes Service used for?
+a. To create and manage containers
+b. To expose and load balance a set of Pods
+c. To store configuration data
+d. To monitor the cluster
+Answer: b
+
+What type of volume in Kubernetes is most suitable for sharing data between Pods?
+a. EmptyDir
+b. HostPath
+c. NFS
+d. Secret
+Answer: c
+
+What is the purpose of a Kubernetes ConfigMap?
+a. To store binary data
+b. To store configuration data as key-value pairs
+c. To store secrets
+d. To store container images
+Answer: b
+
+What is a Kubernetes Ingress resource used for?
+a. To manage cluster-wide configurations
+b. To expose HTTP and HTTPS routes to services
+c. To store environment variables
+d. To scale Pods automatically
+Answer: b
+
+What is the role of etcd in a Kubernetes cluster?
+a. Container runtime
+b. Networking
+c. Data store for cluster configuration
+d. Load balancing
+Answer: c
+
+How can you scale a Deployment in Kubernetes?
+a. Manually update the number of replicas in the Deployment configuration
+b. Delete the Deployment and recreate it
+c. Use the kubectl resize command
+d. It scales automatically
+Answer: a
+
+What is the purpose of a Kubernetes Secret?
+a. To store sensitive data like passwords and API keys
+b. To store log files
+c. To store container images
+d. To store application code
+Answer: a
+
+Which Kubernetes object is responsible for ensuring a specified number of Pod replicas are running at all times?
+a. Deployment
+b. Service
+c. StatefulSet
+d. DaemonSet
+Answer: a
+
+What is the main benefit of using Kubernetes namespaces?
+a. Resource isolation
+b. Load balancing
+c. Data storage
+d. Node management
+Answer: a
+
+What is the primary difference between a Deployment and a StatefulSet in Kubernetes?
+a. StatefulSet ensures Pods have stable, unique network identities, while Deployment doesn't.
+b. Deployment is used for stateful applications, while StatefulSet is for stateless applications.
+c. Deployment supports rolling updates, while StatefulSet does not.
+d. There is no significant difference between them.
+Answer: a
+
+In Kubernetes, what does a Horizontal Pod Autoscaler do?
+a. Manages the horizontal scaling of nodes in the cluster.
+b. Automatically adjusts the number of replicas of a workload based on CPU or memory usage.
+c. Balances network traffic between Pods.
+d. Distributes workloads across multiple clusters.
+Answer: b
+
+What is a Kubernetes PersistentVolume used for?
+a. To store container images
+b. To provide persistent storage for Pods
+c. To define environment variables for Pods
+d. To manage networking between Pods
+Answer: b
+
+Which Kubernetes resource allows you to manage and distribute application configuration data to containers?
+a. ConfigMap
+b. Secret
+c. Service
+d. PersistentVolume
+Answer: a
+
+In Kubernetes, what is the purpose of a StatefulSet?
+a. To ensure Pods are stateless and ephemeral
+b. To manage container images
+c. To ensure Pods have stable, unique network identities
+d. To provide load balancing for services
+Answer: c
+
+How can you upgrade a running application in Kubernetes without downtime?
+a. By manually stopping and starting Pods one by one
+b. By using a RollingUpdate strategy in a Deployment
+c. By scaling the Deployment to 0 replicas and then back to the desired number
+d. By deleting and recreating the Deployment
+Answer: b
+
+What is a Kubernetes Node?
+a. A physical server in a cluster
+b. A container image
+c. A network switch
+d. A virtual machine
+Answer: a
+
+What is a Kubernetes DaemonSet used for?
+a. To run multiple instances of a service
+b. To manage configuration data
+c. To ensure that a Pod runs on every node in the cluster
+d. To expose a service to the internet
+Answer: c
+
+Which Kubernetes resource is used to manage and share secrets like API keys, tokens, and passwords?
+a. ConfigMap
+b. Secret
+c. Pod
+d. Service
+Answer: b
+
+What is the purpose of a Kubernetes Helm chart?
+a. To visualize the cluster's architecture
+b. To manage container images
+c. To package, deploy, and manage applications in Kubernetes
+d. To scale Pods horizontally
+Answer: c
+
+How can you update the Docker image used by a Pod in a Deployment?
+a. Edit the image field in the Pod's YAML file
+b. Delete the Pod and let Kubernetes create a new one
+c. Use the kubectl replace command
+d. Use the kubectl set image command
+Answer: d
+
+What is the purpose of Kubernetes RBAC (Role-Based Access Control)?
+a. To manage DNS for the cluster
+b. To control access to resources in the cluster
+c. To balance network traffic
+d. To monitor cluster performance
+Answer: b
+
+How can you check the status of a Pod in Kubernetes?
+a. Use the kubectl logs command
+b. Use the kubectl status command
+c. Use the kubectl get pod command
+d. Use the kubectl describe pod command
+Answer: d
+
+What is the purpose of a Kubernetes Service Account?
+a. To define the DNS settings for a Pod
+b. To specify the container image used in a Pod
+c. To control which resources a Pod can access
+d. To store environment variables
+Answer: c
+
+What is a Kubernetes Taint used for?
+a. To specify the desired image for a Pod
+b. To add a label to a Node
+c. To repel certain Pods from a Node
+d. To define a Pod's resource requirements
+Answer: c
+
+What is the primary role of the Kubernetes API Server?
+a. To run containers
+b. To serve as the primary entry point for cluster commands
+c. To manage the networking of Pods
+d. To store configuration data
+Answer: b
+
+In Kubernetes, what is a RollingUpdate strategy for Deployments?
+a. It deploys all new Pods at once, causing downtime.
+b. It gradually replaces old Pods with new ones, minimizing downtime.
+c. It rolls back to a previous version of the application.
+d. It scales the Deployment horizontally.
+Answer: b
+
+Which Kubernetes component manages the lifecycle of a Pod?
+a. API Server
+b. Kubelet
+c. Controller Manager
+d. Scheduler
+Answer: b
+
+What does the term "kubectl" stand for?
+a. Kubernetes Command Language
+b. Kubernetes Controller
+c. Kubernetes Control Plane
+d. Kubernetes Command Line
+Answer: d
+
+What is the purpose of the Kubernetes Container Runtime?
+a. To manage cluster networking
+b. To provide a file system for Pods
+c. To run containers within Pods
+d. To monitor cluster health
+Answer: c
+
+Which Kubernetes resource type is used to create a DNS name for a service?
+a. ConfigMap
+b. Secret
+c. Service
+d. StatefulSet
+Answer: c
+
+In Kubernetes, what is the purpose of a Helm release?
+a. To store logs from a Pod
+b. To expose a service to the internet
+c. To manage the deployment and configuration of an application
+d. To create a new Kubernetes cluster
+Answer: c
+
+What is the primary role of the Kubernetes Proxy?
+a. To manage persistent storage
+b. To balance network traffic between Pods
+c. To control access to resources
+d. To run container workloads
+Answer: b
+
+Which Kubernetes resource is used to group a set of resources with the same lifecycle, but different names and labels?
+a. StatefulSet
+b. Namespace
+c. DaemonSet
+d. ReplicaSet
+Answer: b
+
+What is a Kubernetes Node Selector used for?
+a. To specify the container image for a Pod
+b. To schedule Pods to specific nodes based on node labels
+c. To manage container networking
+d. To load balance traffic between Pods
+Answer: b
+
+In Kubernetes, what is a Headless Service used for?
+a. To expose a service on a specific port
+b. To provide a stable network identity for Pods
+c. To secure sensitive data
+d. To scale Pods automatically
+Answer: b
+
+What is a Kubernetes Persistent Volume Claim (PVC) used for?
+a. To specify the resource requirements of a Pod
+b. To manage DNS for the cluster
+c. To request storage resources from a Persistent Volume
+d. To manage the cluster's control plane
+Answer: c
+
+What is the primary function of a Kubernetes Deployment?
+a. To create DNS records
+b. To manage configuration data
+c. To ensure a specified number of Pod replicas are running
+d. To manage the cluster's networking
+Answer: c
+
+What is the purpose of a Kubernetes NetworkPolicy?
+a. To manage container images
+b. To define how Pods can communicate with each other
+c. To expose services to the internet
+d. To scale Pods horizontally
+Answer: b
+
+Which Kubernetes resource is used to manage application state and stateful applications?
+a. StatefulSet
+b. Deployment
+c. Service
+d. ConfigMap
+Answer: a
+
+What is the primary function of a Kubernetes ConfigMap?
+a. To store sensitive data
+b. To manage container images
+c. To store configuration data as key-value pairs
+d. To balance network traffic
+Answer: c
+
+In Kubernetes, what is a ReplicaSet used for?
+a. To ensure that only one instance of a Pod is running
+b. To manage container images
+c. To define environment variables for Pods
+d. To ensure a specified number of replicas are running
+Answer: d
+
+What is the primary responsibility of a Kubernetes Ingress Controller?
+a. To manage container lifecycles
+b. To expose and route HTTP and HTTPS traffic to services
+c. To monitor cluster performance
+d. To run network tests on cluster nodes
+Answer: b
+
+How can you scale a StatefulSet in Kubernetes?
+a. Manually update the number of replicas in the StatefulSet configuration
+b. Delete the StatefulSet and recreate it
+c. Use the kubectl resize command
+d. It scales automatically
+Answer: a
+
+Which Kubernetes component is responsible for managing the state of the cluster and performing tasks like garbage collection?
+a. Kubelet
+b. Controller Manager
+c. API Server
+d. Scheduler
+Answer: b
+
